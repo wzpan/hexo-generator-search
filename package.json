@@ -14,11 +14,7 @@
     "search",
     "generator"
   ],
-  "author": {
-    "name": "PaicHyperion",
-    "email": "PaicHyperion@qq.com",
-    "url": "https://github.com/PaicHyperionDev"
-  },
+  "author": "paichyperiondev <PaicHyperion@qq.com> (https://github.com/PaicHyperionDev)",
   "license": "MIT",
   "dependencies": {
     "ejs": "^1.0.0"
@@ -27,17 +23,21 @@
     "url": "https://github.com/PaicHyperionDev/hexo-generator-search/issues"
   },
   "homepage": "https://github.com/hexojs/hexo-generator-search#readme",
-  "_id": "hexo-generator-search@1.0.0",
-  "_npmVersion": "2.10.1",
+  "_npmVersion": "2.11.0",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
-    "name": "PaicHyperion",
+    "name": "paichyperiondev",
     "email": "PaicHyperion@qq.com"
   },
   "maintainers": [
-    {
-      "name": "maoshuhao",
-      "email": "326810048@qq.com"
-    }
-  ]
+    "maoshuhao <326810048@qq.com>",
+    "wzpan <cs.wzpan@gmail.com>"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaicHyperionDev/hexo-generator-search.git"
+  }
 }
