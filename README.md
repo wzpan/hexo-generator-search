@@ -1,15 +1,12 @@
 # hexo-generator-search
 
-Generate search data.
+Generate search data for Hexo 3.0.This plugin is used to generator a search.xml file.The file contains the main data of your blog so that you can use the data to finish a search function for your blog.
 
 ## Install
 
 ``` bash
 $ npm install hexo-generator-search --save
 ```
-
-- Hexo 3: 1.x
-- Hexo 2: 0.x
 
 ## Options
 
@@ -22,4 +19,4 @@ search:
 ```
 
 - **path** - file path. (Default: search.xml)
-- **search_field** - the field you want to search, you can chose post 、page or post,page(Default:post)
+- **field** - the field you want to search, you can chose post 、page or post,page(Default:post)
