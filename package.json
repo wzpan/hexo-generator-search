@@ -1,0 +1,43 @@
+{
+  "name": "hexo-generator-search",
+  "version": "1.0.0",
+  "description": "Seach generator plugin for Hexo",
+  "main": "index",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "hexo",
+    "search",
+    "generator"
+  ],
+  "author": {
+    "name": "PaicHyperion",
+    "email": "PaicHyperion@qq.com",
+    "url": "https://github.com/PaicHyperionDev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/PaicHyperionDev/hexo-generator-search/issues"
+  },
+  "homepage": "https://github.com/hexojs/hexo-generator-search#readme",
+  "_id": "hexo-generator-search@1.0.0",
+  "_npmVersion": "2.10.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "PaicHyperion",
+    "email": "PaicHyperion@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "maoshuhao",
+      "email": "326810048@qq.com"
+    }
+  ]
+}

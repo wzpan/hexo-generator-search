@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <% var url = config.url + config.root %>
+  <% if(posts){ %>
+    <% posts.each(function(post){ %>
+    <entry>
+      <title><%-: post.title | cdata %></title>
+      <link href="<%- encodeURI(url + post.path) %>"/>
+      <url><%- encodeURI(url + post.path) %></url>
+      <content type="html"><%-: post.content | cdata %></content>
+    </entry>
+    <% }) %>
+  <% } %>
+  <% if(pages){ %>
+    <% pages.each(function(page){ %>
+    <entry>
+      <title><%-: page.title | cdata %></title>
+      <link href="<%- encodeURI(url + page.path) %>"/>
+      <url><%- encodeURI(url + page.path) %></url>
+      <content type="html"><%-: page.content | cdata %></content>
+    </entry>
+    <% }) %>
+  <% } %>
+</search>
