@@ -10,7 +10,7 @@ $ npm install hexo-generator-search --save
 
 ## Options
 
-You can configure this plugin in `_config.yml`.dgdgdgdgdgdgdgd
+You can configure this plugin in `_config.yml`.
 
 ``` yaml
 search:
