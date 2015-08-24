@@ -15,7 +15,7 @@
     "generator"
   ],
   "author": {
-    "name": "PaicHyperion",
+    "name": "PaicHyperionDev",
     "email": "PaicHyperion@qq.com",
     "url": "https://github.com/PaicHyperionDev"
   },
@@ -31,7 +31,7 @@
   "_npmVersion": "2.10.1",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
-    "name": "PaicHyperion",
+    "name": "paichyperiondev",
     "email": "PaicHyperion@qq.com"
   },
   "maintainers": [
