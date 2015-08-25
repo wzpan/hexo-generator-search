@@ -20,6 +20,7 @@ search:
 
 - **path** - file path. (Default: search.xml)
 - **field** - the field you want to search, you can chose (Default:post)
-            - post -the search.xml file will only contain all the posts of your blog.
-            - page -the search.xml file will only contain all the pages of your blog.Take care: don't contain the posts.
-            - all -the search.xml file will contain the posts and pages of your blog.
+
+            - **post** - the search.xml file will only contain all the posts of your blog.
+            - **page** - the search.xml file will only contain all the pages of your blog.Take care: don't contain the posts.
+            - **all** - the search.xml file will contain the posts and pages of your blog.
