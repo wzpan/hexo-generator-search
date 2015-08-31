@@ -23,3 +23,7 @@ search:
   * **post** (Default) - will only covers all the posts of your blog.
   * **page** - will only covers all the pages of your blog.
   * **all** - will covers all the posts and pages of your blog.
+
+## Example
+
+An example to write a local search engine can be found at here: <https://gist.github.com/wzpan/3d4c3b60540ed820a184>
