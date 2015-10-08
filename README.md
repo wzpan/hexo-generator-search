@@ -1,6 +1,8 @@
 # hexo-generator-search
 
-Generate search data for Hexo 3.0. This plugin is used to generator a `search.xml` file, which contains all the neccessary data of your articles that you can use to write a local search engine for your blog.
+Generate search data for Hexo 3.0. This plugin is used for generating a `search.xml` file, which contains all the neccessary data of your articles that you can use to write a local search engine for your blog.
+
+[Demo](http://wzpan.github.io/hexo-theme-freemind/404.html) - check out the search engine in this 404 page.
 
 ## Install
 
@@ -23,7 +25,3 @@ search:
   * **post** (Default) - will only covers all the posts of your blog.
   * **page** - will only covers all the pages of your blog.
   * **all** - will covers all the posts and pages of your blog.
-
-## Example
-
-An example to write a local search engine can be found at here: <https://gist.github.com/wzpan/3d4c3b60540ed820a184>
