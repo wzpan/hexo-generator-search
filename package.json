@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-search",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Seach generator plugin for Hexo",
   "main": "index",
   "directories": {
@@ -17,7 +17,8 @@
   "author": "paichyperiondev <PaicHyperion@qq.com> (https://github.com/PaicHyperionDev)",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^1.0.0"
+    "ejs": "^1.0.0",
+    "utils-merge": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/PaicHyperionDev/hexo-generator-search/issues"
