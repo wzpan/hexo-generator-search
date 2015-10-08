@@ -5,8 +5,7 @@
     <% posts.each(function(post){ %>
     <entry>
       <title><%-: post.title | cdata %></title>
-      <link href="<%- encodeURI(url + post.path) %>"/>
-      <url><%- encodeURI(url + post.path) %></url>
+      <url><%- encodeURI(post.permalink) %></url>
       <content type="html"><%-: post.content | cdata %></content>
     </entry>
     <% }) %>
@@ -15,8 +14,7 @@
     <% pages.each(function(page){ %>
     <entry>
       <title><%-: page.title | cdata %></title>
-      <link href="<%- encodeURI(url + page.path) %>"/>
-      <url><%- encodeURI(url + page.path) %></url>
+      <url><%- encodeURI(page.permalink) %></url>
       <content type="html"><%-: page.content | cdata %></content>
     </entry>
     <% }) %>
