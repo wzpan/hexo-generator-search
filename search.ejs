@@ -5,7 +5,7 @@
     <% posts.each(function(post){ %>
     <entry>
       <title><%-: post.title | cdata %></title>
-      <url><%- encodeURI(post.permalink) %></url>
+      <url><%- encodeURI(post.permalink).replace("&","&amp;") %></url>
       <content type="html"><%-: post.content | cdata %></content>
     </entry>
     <% }) %>
@@ -14,7 +14,7 @@
     <% pages.each(function(page){ %>
     <entry>
       <title><%-: page.title | cdata %></title>
-      <url><%- encodeURI(page.permalink) %></url>
+      <url><%- encodeURI(page.permalink).replace("&","&amp;") %></url>
       <content type="html"><%-: page.content | cdata %></content>
     </entry>
     <% }) %>
