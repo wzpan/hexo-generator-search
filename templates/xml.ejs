@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <% var url = config.url + config.root %>
+<search> 
   <% if(posts){ %>
     <% posts.each(function(post){ %>
     <entry>
       <title><%-: post.title | cdata %></title>
-      <url><%- encodeURI(post.permalink).replace("&","&amp;") %></url>
+      <url><%- encodeURI(config.root+post.path).replace("&","&amp;") %></url>
       <content type="html"><%-: post.content | cdata %></content>
       <%if(post.categories&&post.categories.length>0){%>
         <categories>
@@ -28,7 +27,7 @@
     <% pages.each(function(page){ %>
     <entry>
       <title><%-: page.title | cdata %></title>
-      <url><%- encodeURI(page.permalink).replace("&","&amp;") %></url>
+      <url><%- encodeURI(config.root+page.path).replace("&","&amp;") %></url>
       <content type="html"><%-: page.content | cdata %></content>
     </entry>
     <% }) %>
