@@ -30,15 +30,15 @@ search:
 
 ## FAQ
 
-* What's this plugin supposed to do? 
+### What's this plugin supposed to do? 
 
 This plugin is used for generate a xml / json file from your Hexo blog that provides data for searching.
 
-* Where's this file saved to?
+### Where's this file saved to?
 
 After executing `hexo g` you will get the generated result at your public folder.
 
-* How to use this plugin in my Hexo blog?
+### How to use this plugin in my Hexo blog?
 
 You have two choice:
   * you don't want to write search engine by yourself. There are many themes that take use this plugin for local searching that works out of box. 
