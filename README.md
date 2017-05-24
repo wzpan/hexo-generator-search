@@ -1,5 +1,6 @@
 # hexo-generator-search
 
+[![npm](https://img.shields.io/npm/v/hexo-generator-search.svg)](https://www.npmjs.com/package/hexo-generator-search)
 [![npm](https://img.shields.io/npm/dm/hexo-generator-search.svg)](https://www.npmjs.com/package/hexo-generator-search)
 
 Generate search data for Hexo 3.0. This plugin is used for generating a search index file, which contains all the neccessary data of your articles that you can use to write a local search engine for your blog. Supports both XML and JSON format output.
