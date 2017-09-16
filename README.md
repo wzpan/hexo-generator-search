@@ -5,7 +5,7 @@
 
 Generate search data for Hexo 3.0. This plugin is used for generating a search index file, which contains all the neccessary data of your articles that you can use to write a local search engine for your blog. Supports both XML and JSON format output.
 
-- [Demo](http://wzpan.github.io/hexo-theme-freemind/404.html) - check out the search engine in this 404 page.
+- [Demo](http://www.hahack.com/hexo-theme-freemind-blog/) - try out the search engine in this site.
 - [Demo JSON output](https://github.com/PaicHyperionDev/hexo-generator-search/blob/master/demo_output/search.json)
 - [Demo XML output](https://github.com/PaicHyperionDev/hexo-generator-search/blob/master/demo_output/search.xml)
 
