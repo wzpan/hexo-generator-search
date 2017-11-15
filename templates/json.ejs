@@ -26,6 +26,7 @@
        <% var cate_index = 0 -%>
        <% post.categories.each(function (cate) { -%>
           <% categories[cate_index] = cate.name; -%>
+          <% cate_index += 1 -%>
        <% }); -%>
        <% temp_post.categories = categories -%>
     <% } -%>
@@ -50,6 +51,7 @@
        <% var tag_index = 0 -%>
        <% page.tags.each(function (tag) { -%>
           <% tags[tag_index] = tag.name; -%>
+          <% tag_index += 1 -%>
        <% }); -%>
        <% temp_page.tags = tags -%>
     <% } -%>
@@ -58,6 +60,7 @@
        <% var cate_index = 0 -%>
        <% page.categories.each(function (cate) { -%>
           <% categories[cate_index] = cate.name; -%>
+          <% cate_index += 1 -%>
        <% }); -%>
        <% temp_page.categories = categories -%>
     <% } -%>
