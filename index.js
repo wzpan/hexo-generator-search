@@ -20,6 +20,6 @@ if (pathFn.extname(config.path)=='.xml') {
 	hexo.extend.generator.register('xml', require('./lib/xml_generator'));
 }
 
-if (pathFn.extname(config.path)=='.json') {
+if (pathFn.extname(config.path)=='.json') {    
 	hexo.extend.generator.register('json', require('./lib/json_generator'));
 }
