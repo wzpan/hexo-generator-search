@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  {% if posts %}
+    {% for post in posts.toArray() %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <link href="{{ (url + post.path) | uriencode }}"/>
+      <content type="html"><![CDATA[{{ post.content | noControlChars | safe }}]]></content>
+      {% if post.categories and post.categories.length>0 %}
+      <categories>
+          {% for cate in post.categories.toArray() %}
+          <category> {{ cate.name }} </category>
+          {% endfor %}
+      </categories>
+      {% endif %}
+      {% if post.tags and post.tags.length>0 %}
+        <tags>
+            {% for tag in post.tags.toArray() %}
+            <tag> {{ tag.name }} </tag>
+            {% endfor %}
+        </tags>
+      {% endif %}
+    </entry>
+    {% endfor %}
+  {% endif %}
+  {% if pages %}
+    {% for page in pages.toArray() %}
+    <entry>
+      <title>{{ page.title }}</title>
+      <link href="{{ (url + page.path) | uriencode }}"/>
+      <content type="html"><![CDATA[{{ page.content | noControlChars | safe }}]]></content>
+    </entry>
+    {% endfor %}
+  {% endif %}
+</search>
