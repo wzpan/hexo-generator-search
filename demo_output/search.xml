@@ -4,7 +4,7 @@
     
     <entry>
       <title><![CDATA[Questions and Answers]]></title>
-      <url>/hexo-theme-wixo/Docs/qna/</url>
+      <link href="/hexo-theme-wixo/Docs/qna/"/>
       <content type="html"><![CDATA[<span class="label label-danger">Q</span> What does <code>Freemind</code> stands for?<br><br><span class="label label-success">A</span> <code>Freemind</code> is named after <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid’s blog</a>. This theme is greatly inspired by his blog layouts and stylesheets.<br><br><span class="label label-danger">Q</span> There’re already so many themes for Hexo. Why create this one?<br><br><span class="label label-success">A</span> In fact I created this theme before I turned to use Hexo. I switched to Hexo about half an year ago, including my theme, since I have already got used to it and don’t wanna change it for now.<br><br><a id="more"></a>
 <p><span class="label label-danger">Q</span> Why use raw CSS stylesheets instead of more fashionable stylus?</p>
 <p><span class="label label-success">A</span> Yes, stylus is cool. But I don’t want to wrote my stylesheets again in stylus. So let’s just keep them.</p>
@@ -40,7 +40,7 @@
     
     <entry>
       <title><![CDATA[Questions and Answers（中文）]]></title>
-      <url>/hexo-theme-wixo/Docs/qna-cn/</url>
+      <link href="/hexo-theme-wixo/Docs/qna-cn/"/>
       <content type="html"><![CDATA[<span class="label label-danger">Q</span> <code>Freemind</code> 这名字有何含义？<br><br><span class="label label-success">A</span> <code>Freemind</code> 命名出自 <a href="http://freemind.pluskid.org/" target="_blank" rel="external">Pluskid</a> 的博客。这个主题很大程度借鉴了他的博客的布局和样式。<br><br><span class="label label-danger">Q</span> 现在都有这么多 Hexo 的主题了，为啥又要写一个？<br><br><span class="label label-success">A</span> 实际上我这个主题在我使用 Hexo 前已经创建了。我在半年前将博客迁移到 Hexo ，因为我已经习惯了原来的主题，所以顺便把主题也移植了过来。<br><br><a id="more"></a>
 <p><span class="label label-danger">Q</span> 为啥还用 CSS 写样式，而不用更高端大气的 stylus ？</p>
 <p><span class="label label-success">A</span> 嗯，stylus 的确很酷。不过我不想再把以前的样式重写成 stylus 了。所以暂时先保留原来的 CSS。</p>
@@ -76,7 +76,7 @@
     
     <entry>
       <title><![CDATA[Tag Plugins]]></title>
-      <url>/hexo-theme-wixo/Docs/tag-plugins/</url>
+      <link href="/hexo-theme-wixo/Docs/tag-plugins/"/>
       <content type="html"><![CDATA[<p>The freemind theme offers several new tag plugins, so as to fully take advantages of Bootstrap.</p>
 <p>To use these tag plugins, you need to install <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> first. In your blog root folder, execute the following command:</p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install </span>hexo-tag-<span class="keyword">bootstrap </span>--save</div></pre></td></tr></table></figure>
@@ -142,7 +142,7 @@
     
     <entry>
       <title><![CDATA[Tag Plugins（中文）]]></title>
-      <url>/hexo-theme-wixo/Docs/tag-plugins-cn/</url>
+      <link href="/hexo-theme-wixo/Docs/tag-plugins-cn/"/>
       <content type="html"><![CDATA[<p>Freemind 主题提供了丰富的 tag plugins，以充分利用 Bootstrap 的威力。</p>
 <p>在使用这些 tag plugins 之前，你需要先安装 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 。在你的 Hexo 博客目录，执行下列命令：</p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm <span class="keyword">install </span>hexo-tag-<span class="keyword">bootstrap </span>--save</div></pre></td></tr></table></figure>
@@ -208,7 +208,7 @@
     
     <entry>
       <title><![CDATA[Lorem Ipsum]]></title>
-      <url>/hexo-theme-wixo/Test/lorem-ipsum/</url>
+      <link href="/hexo-theme-wixo/Test/lorem-ipsum/"/>
       <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p><img src="/hexo-theme-freemind/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
 <a id="more"></a>
@@ -232,7 +232,7 @@
     
     <entry>
       <title><![CDATA[繁體中文測試]]></title>
-      <url>/hexo-theme-wixo/Test/traditional-chinese-test/</url>
+      <link href="/hexo-theme-wixo/Test/traditional-chinese-test/"/>
       <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p>
 <p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p>
 <p>舍利子，是諸法空相，不生不滅，不垢不淨，不增不減，是故空中無色，無受、想、行、識；無眼、耳、鼻、舌、身、意；無色、聲、香、味、觸、法；無眼界，乃至無意識界；無無明，亦無無明盡；乃至無老死，亦無老死盡。無苦、集、滅、道，無智亦無得，以無所得故。</p>
@@ -261,7 +261,7 @@
     
     <entry>
       <title><![CDATA[简体中文测试]]></title>
-      <url>/hexo-theme-wixo/Test/simplified-chinese-test/</url>
+      <link href="/hexo-theme-wixo/Test/simplified-chinese-test/"/>
       <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p>
 <p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p>
 <p>舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。</p>
@@ -293,7 +293,7 @@
     
     <entry>
       <title></title>
-      <url>/hexo-theme-wixo/404.html</url>
+      <link href="/hexo-theme-wixo/404.html"/>
       <content type="html"><![CDATA[
 <!DOCTYPE HTML>
 <html>
@@ -374,7 +374,7 @@
     
     <entry>
       <title><![CDATA[About]]></title>
-      <url>/hexo-theme-wixo/about/index.html</url>
+      <link href="/hexo-theme-wixo/about/index.html"/>
       <content type="html"><![CDATA[
 Something about me. ;-)
 ]]></content>
@@ -382,13 +382,13 @@ Something about me. ;-)
     
     <entry>
       <title><![CDATA[Categories]]></title>
-      <url>/hexo-theme-wixo/categories/index.html</url>
+      <link href="/hexo-theme-wixo/categories/index.html"/>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[Tags]]></title>
-      <url>/hexo-theme-wixo/tags/index.html</url>
+      <link href="/hexo-theme-wixo/tags/index.html"/>
       <content type="html"></content>
     </entry>
     
