@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-search",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Seach generator plugin for Hexo",
   "main": "index",
   "directories": {
@@ -14,21 +14,21 @@
     "search",
     "generator"
   ],
-  "author": "paichyperiondev <PaicHyperion@qq.com> (https://github.com/PaicHyperionDev)",
+  "author": "wzpan <m@hahack.com> (https://github.com/Wzpan)",
   "license": "MIT",
   "dependencies": {
     "nunjucks": "^3.0.1",
     "utils-merge": "^1.0.0"
   },
   "bugs": {
-    "url": "https://github.com/PaicHyperionDev/hexo-generator-search/issues"
+    "url": "https://github.com/Wzpan/hexo-generator-search/issues"
   },
-  "homepage": "https://github.com/PaicHyperionDev/hexo-generator-search#readme",
+  "homepage": "https://github.com/Wzpan/hexo-generator-search#readme",
   "_npmVersion": "2.11.0",
   "_nodeVersion": "0.12.4",
   "_npmUser": {
-    "name": "paichyperiondev",
-    "email": "PaicHyperion@qq.com"
+    "name": "wzpan",
+    "email": "m@hahack.com"
   },
   "maintainers": [
     "maoshuhao <326810048@qq.com>",
@@ -39,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PaicHyperionDev/hexo-generator-search.git"
+    "url": "git+https://github.com/Wzpan/hexo-generator-search.git"
   }
 }
