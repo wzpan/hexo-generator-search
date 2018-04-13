@@ -4,6 +4,7 @@
     {% for post in posts.toArray() %}
     <entry>
       <title>{{ post.title }}</title>
+      <author>{{ post.author }}</author>
       <link href="{{ (url + post.path) | uriencode }}"/>
       <url>{{ (url + post.path) | uriencode }}</url>
       <content type="html"><![CDATA[{{ post.content | noControlChars | safe }}]]></content>
