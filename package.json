@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-search",
-  "version": "2.2.5",
+  "version": "2.3.0",
   "description": "Seach generator plugin for Hexo",
   "main": "index",
   "directories": {

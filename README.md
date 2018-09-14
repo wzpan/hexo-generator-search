@@ -23,6 +23,7 @@ You can configure this plugin in your root `_config.yml`.
 search:
   path: search.xml
   field: post
+  content: true
 ```
 
 - **path** - file path. By default is `search.xml` . If the file extension is `.json`, the output format will be JSON. Otherwise XML format file will be exported.
@@ -30,6 +31,7 @@ search:
   * **post** (Default) - will only covers all the posts of your blog.
   * **page** - will only covers all the pages of your blog.
   * **all** - will covers all the posts and pages of your blog.
+- **content** - whether contains the whole content of each article. If `false`, the generated results only cover title and other meta info without mainbody. By default is `true`.
 
 ## FAQ
 

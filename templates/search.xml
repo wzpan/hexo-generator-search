@@ -6,7 +6,9 @@
       <title>{{ post.title }}</title>
       <link href="{{ (url + post.path) | uriencode }}"/>
       <url>{{ (url + post.path) | uriencode }}</url>
-      <content type="html"><![CDATA[{{ post.content | noControlChars | safe }}]]></content>
+      {% if content %}
+        <content type="html"><![CDATA[{{ post.content | noControlChars | safe }}]]></content>
+      {% endif %}
       {% if post.categories and post.categories.length>0 %}
       <categories>
           {% for cate in post.categories.toArray() %}
@@ -30,7 +32,9 @@
       <title>{{ page.title }}</title>
       <link href="{{ (url + page.path) | uriencode }}"/>
       <url>{{ (url + page.path) | uriencode }}</url>
-      <content type="html"><![CDATA[{{ page.content | noControlChars | safe }}]]></content>
+      {% if content %}
+        <content type="html"><![CDATA[{{ page.content | noControlChars | safe }}]]></content>
+      {% endif %}
     </entry>
     {% endfor %}
   {% endif %}
