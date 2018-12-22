@@ -33,6 +33,23 @@ search:
   * **all** - will covers all the posts and pages of your blog.
 - **content** - whether contains the whole content of each article. If `false`, the generated results only cover title and other meta info without mainbody. By default is `true`.
 
+## Exclude indexing
+
+To exclude a certain post or page from being indexed, you can simply insert `indexing: false` setting at the top of its front-matter, *e.g.*:
+
+```
+title: "Code Highlight"
+date: "2014-03-15 20:17:16"
+tags: highlight
+categories: Demo
+description: "A collection of Hello World applications from helloworld.org."
+toc: true
+indexing: false
+---
+```
+
+Then the generated result will not contain this post or page.
+
 ## FAQ
 
 ### What's this plugin supposed to do? 

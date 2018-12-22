@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search> 
   {% if posts %}
-    {% for post in posts.toArray() %}
+  {% for post in posts.toArray() %}
+    {% if post.indexing == undefined or post.indexing %}
     <entry>
       <title>{{ post.title }}</title>
       <link href="{{ (url + post.path) | uriencode }}"/>
@@ -24,10 +25,12 @@
         </tags>
       {% endif %}
     </entry>
+    {% endif %}
     {% endfor %}
   {% endif %}
   {% if pages %}
     {% for page in pages.toArray() %}
+    {% if post.indexing == undefined or post.indexing %}
     <entry>
       <title>{{ page.title }}</title>
       <link href="{{ (url + page.path) | uriencode }}"/>
@@ -36,6 +39,7 @@
         <content type="html"><![CDATA[{{ page.content | noControlChars | safe }}]]></content>
       {% endif %}
     </entry>
+    {% endif %}
     {% endfor %}
   {% endif %}
 </search>
