@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-search",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Seach generator plugin for Hexo",
   "main": "index",
   "directories": {
@@ -14,7 +14,7 @@
     "search",
     "generator"
   ],
-  "author": "wzpan <m@hahack.com> (https://github.com/Wzpan)",
+  "author": "wzpan <m@hahack.com> (https://github.com/wzpan)",
   "license": "MIT",
   "dependencies": {
     "nunjucks": "^3.0.1",
