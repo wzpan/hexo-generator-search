@@ -4,7 +4,11 @@
   {% for post in posts.toArray() %}
     {% if post.indexing == undefined or post.indexing %}
     <entry>
-      <title>{{ post.title }}</title>
+      {% if post.title %}
+        <title>{{ post.title }}</title>
+      {% else %}
+        <title>No Title</title>
+      {% endif %}
       <link href="{{ (url + post.path) | uriencode }}"/>
       <url>{{ (url + post.path) | uriencode }}</url>
       {% if content %}
